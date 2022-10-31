@@ -101,8 +101,8 @@ a {
 }
 
 .hero-text {
-  padding-top: 360px;
-  margin-bottom: 40px;
+  padding-top: 200px;
+  padding-bottom: 40px;;
   color: var(--accent-text-color);
   font-weight: 900;
   font-size: 44px;
@@ -111,7 +111,7 @@ a {
 }
 
 .hero-button {
-  margin-bottom: 200px;
+  margin-bottom: 190px;
   font-family: inherit;
   font-size: 16px;
   line-height: 1.88;
