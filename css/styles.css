@@ -19,6 +19,26 @@ body {
   color: var(--primary-text-color);
 }
 
+/* reset */
+h1, h2, h3, h4, h5, h6, p {
+  margin: 0;
+}
+
+.link {
+  text-decoration: none;
+  color: currentColor;
+}
+
+.list {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+img {
+  display: block;
+}
+
 ul {
   list-style: none;
 }
@@ -81,6 +101,8 @@ a {
 }
 
 .hero-text {
+  padding-top: 360px;
+  margin-bottom: 40px;
   color: var(--accent-text-color);
   font-weight: 900;
   font-size: 44px;
@@ -89,6 +111,7 @@ a {
 }
 
 .hero-button {
+  margin-bottom: 200px;
   font-family: inherit;
   font-size: 16px;
   line-height: 1.88;
@@ -97,7 +120,10 @@ a {
   background: var(--additional-text-color);
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
   border-radius: 4px;
-  border: none;
+  padding: 10px 32px;
+  border: 1px solid transparent;
+  min-width: 152px;
+  min-height: 30px;
   cursor: pointer;
 }
 
