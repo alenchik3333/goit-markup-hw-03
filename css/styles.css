@@ -128,8 +128,6 @@ a {
   display: block;
 }
 
-
-
 .header-nav .link,
 .contact .link{
   padding-top: 32px;
@@ -230,6 +228,7 @@ h3 {
   font-size: 36px;
   line-height: 1.17;
   text-align: center;
+  padding-bottom: 50px;
 }
 
 .feature-img {
