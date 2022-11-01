@@ -325,6 +325,12 @@ padding-bottom: 30px;
 }
 
 /* portfolio */
+.portfolio-container {
+  padding-top: 94px;
+  padding-bottom: 94px;
+}
+
+
 .visually-hidden {
   position: absolute;
   white-space: nowrap;
@@ -344,6 +350,7 @@ padding-bottom: 30px;
   gap: 8px;
   padding-left: 0;
   justify-content: center;
+  margin-bottom: 50px;
 }
 
 .button-list .button {
