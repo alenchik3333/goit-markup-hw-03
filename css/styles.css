@@ -92,6 +92,11 @@ a {
   margin-right: 93px;
 }
 
+.header-nav {
+  display: flex;
+  align-items: center;
+}
+
 /* site-nav */
 .page-header {
   font-weight: 500;
@@ -107,8 +112,8 @@ a {
   margin-right: 50px;
 }
 
-..site-nav .link:last-child {
-  margin-right: 0;
+.site-nav .link:last-child {
+  /* margin-right: 0; */
 }
 
 .site-nav .link:hover,
@@ -136,6 +141,7 @@ a {
   display: flex;
   align-items: center;
   gap: 50px;
+  margin-left: auto;
 }
 
 
@@ -383,16 +389,15 @@ padding-bottom: 30px;
 .portfolio {
   display: flex;
   flex-wrap: wrap;
-  gap: 30px;
   padding-left: 0;
   margin: 0;
 }
 
-.portfolio-item {
-  flex-basis: calc((100% - 60px) / 3)
+.portfolio .portfolio-item {
+  width: calc((100% - 60px) / 3)
 }
 
-.portfolio-item:nth-child(3n) {
+.portfolio .portfolio-item:nth-child(3n) {
   margin-right: 0;
 }
 
